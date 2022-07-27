@@ -25,7 +25,7 @@ public class Plantacao {
     public void setAzeitona(TipoDeAzeitona azeitona) {
         this.azeitona = azeitona;
     }
-    
+
     public int getDistanciaDoLagarSegundos() {
         return distanciaDoLagarSegundos;
     }
@@ -40,7 +40,16 @@ public class Plantacao {
         this.produzindo = produzindo;
     }
     
+    public void carregaCaminhoes(){
+        new Thread( () -> {
+            while(true){
+                if(false){
 
+                }
+            }
+
+        }).start();
+    }
 
 
 

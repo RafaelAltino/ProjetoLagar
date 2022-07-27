@@ -54,4 +54,13 @@ public class Lagar {
     public void incrementarTotal(int quantidade){
         totalAzeitonas += quantidade;
     }
+
+
+
+
+
+    public void recebeCaminhoes(){
+        //Lógica de comparar tamanho da fila
+    }
+
 }
